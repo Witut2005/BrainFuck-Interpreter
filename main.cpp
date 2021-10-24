@@ -3,8 +3,8 @@
 #include <cstdlib>
 #include <inttypes.h>
 
-#include "interpret.cpp"
-#include "input.cpp"
+#include "interpreter.cpp"
+
 
 using namespace std;
 
