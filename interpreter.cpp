@@ -5,7 +5,7 @@ using namespace std;
 char code;
 uint8_t code_count = 0;
 
-uint8_t *data = new uint8_t[0xffff];
+uint8_t *data = (uint8_t*)callock(0xffff,sizeof(uint8_t));
 uint8_t* cell_ptr =  &data[0];
 
 uint8_t loop_addr;
